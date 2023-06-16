@@ -5,19 +5,9 @@
     "repository": {
         "url": "https://github.com/oathompsonjones/ts-init.git"
     },
-    "main": "build/index.js",
-    "types": "build/index.d.ts",
-    "exports": {
-        ".": [
-            {
-                "require": "./build/index.js",
-                "import": "./build/esm.mjs"
-            },
-            "./build/index.js"
-        ],
-        "./index": "./build/index.js",
-        "./esm": "./build/esm.mjs"
-    },
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "exports": "./build/index.js",
     "scripts": {
         "lint": "pnpm eslint .",
         "test": "pnpm jest",
