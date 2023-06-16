@@ -1,12 +1,5 @@
 {
-    "extends": "@oathompsonjones/ts-config",
-    "compilerOptions": {
-        "outDir": "build",
-        "rootDir": "src"
-    },
-    "include": [
-        "src/**/*"
-    ],
+    "extends": "./tsconfig.json",
     "exclude": [
         "src/**/*.test.ts",
         "src/**/*.spec.ts"
