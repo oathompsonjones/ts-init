@@ -1,0 +1,10 @@
+{
+    "extends": "@oathompsonjones/ts-config",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build"
+    },
+    "exclude": [
+        "jest.config.js"
+    ]
+}
