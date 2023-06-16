@@ -11,7 +11,7 @@
     "scripts": {
         "lint": "pnpm eslint .",
         "test": "pnpm jest",
-        "build": "pnpm tsc",
+        "build": "pnpm tsc --project tsconfig.build.json",
         "start": "node ."
     },
     "author": "oathompsonjones",

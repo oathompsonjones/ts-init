@@ -1,0 +1,14 @@
+{
+    "extends": "@oathompsonjones/ts-config",
+    "compilerOptions": {
+        "outDir": "build",
+        "rootDir": "src"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/**/*.spec.ts"
+    ]
+}
