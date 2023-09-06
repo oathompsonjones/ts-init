@@ -1,1 +1,1 @@
-module.exports = { preset: "ts-jest" };
+export default { preset: "ts-jest" };
