@@ -9,10 +9,9 @@ function tsinit() {
     rm -rf ./.git
     # Reinitialises git
     git init
-    # Installs the devDependencies
-    pnpm add -D @oathompsonjones/eslint-config@latest @oathompsonjones/ts-config@latest @total-typescript/ts-reset@latest @types/jest@latest @types/node@latest eslint@latest jest@latest ts-jest@latest typescript@latest
     # Installs the dependencies
-    pnpm add simple-node-utils@latest
+    pnpm i
+    pnpm update --latest
     # Opens the index file in VSCode
     code ./src/index.ts
 }
