@@ -11,7 +11,7 @@
     "type": "module",
     "scripts": {
         "lint": "eslint .",
-        "test": "jest",
+        "test": "vitest",
         "build": "tsc --project tsconfig.build.json",
         "start": "node ."
     },
