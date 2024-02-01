@@ -12,6 +12,11 @@ function tsinit() {
     # Installs the dependencies
     pnpm i
     pnpm update --latest
+    # Creates files which git ignores
+    touch .env
+    mkdir .vscode
+    touch .vscode/settings.json
+    echo -e "{\n\t\"vitest.commandLine\": \"pnpx vitest watch\"\n}" > .vscode/settings.json
     # Opens the index file in VSCode
     code ./src/index.ts
 }
