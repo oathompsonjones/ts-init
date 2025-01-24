@@ -18,11 +18,11 @@
     "author": "oathompsonjones",
     "license": "MIT",
     "devDependencies": {
-        "@oathompsonjones/eslint-config": "^1.2.3",
+        "@oathompsonjones/eslint-config": "^1.5.5",
         "@oathompsonjones/ts-config": "^0.0.35",
-        "@types/node": "^20.14.12",
-        "typescript": "^5.5.4",
-        "vitest": "^2.0.4"
+        "@types/node": "^22.10.10",
+        "typescript": "^5.7.3",
+        "vitest": "^3.0.4"
     },
     "dependencies": {
         "simple-node-utils": "^2.2.4"
