@@ -2,13 +2,13 @@
     "name": "ts-init",
     "version": "0.0.1",
     "description": "",
+    "type": "module",
     "repository": {
         "url": "https://github.com/oathompsonjones/ts-init.git"
     },
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "exports": "./build/index.js",
-    "type": "module",
     "scripts": {
         "lint": "eslint .",
         "test": "vitest run",
